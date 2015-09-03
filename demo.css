@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Karla:400,700,400italic);
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #585858;
+	font-family: 'Karla';
+	font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	margin: 0 0 .5em 0;
+}
+
+h1 {
+	font-size: 51px;
+	font-weight: 400;
+	margin-bottom: 0.15em;
+}
+
+h2 {
+	font-size: 34px;
+	font-weight: 400;
+}
+
+h3 {
+	font-size: 27px;
+	font-weight: 400;
+}
+
+h4 {
+	font-size: 21px;
+	font-weight: 400;
+}
+
+
+.container {
+	width: 800px;
+	margin: 0 auto;
+	padding: 40px 0;
+}
+
+header {
+	margin-bottom: 25px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #585858;
+}
+
+section {
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #ededed;	
+}
+
+.style {
+	margin-bottom: 20px;
+}
+
+.df-checkbox {
+	display: block;
+	margin-bottom: 8px;
+	padding-bottom: 8px;
+}
