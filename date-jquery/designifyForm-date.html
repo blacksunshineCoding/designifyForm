@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>designFormify-date-jquery</title>
+	<link rel="stylesheet" href="../demo.css">
+	<link rel="stylesheet" href="designifyForm-date.css">
+	<script src="../jquery/jquery-1.11.3.min.js"></script>
+	<script src="designifyForm-date.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('.df-date.size-small').dfDate();
+			$('.df-date.size-default').dfDate();
+			$('.df-date.size-large').dfDate();
+			$('.df-date.size-xlarge').dfDate();
+		});
+	</script>
+</head>
+<body>
+	<div class="container">
+		<header class="intro">
+			<h1>designifyForm</h1>
+			<h2>date-jquery</h2>
+			<p>make your an amazing datepicker out of your date inputs</p>
+		</header>
+		<section class="example-df-date example-date-default">
+			<h3>plain date inputs</h3>
+			<div class="example">
+				<div class="style style-example-default">
+					<h4>default style</h4>
+					<div class="example-date">
+						<div class="df-date size-small">
+							<input type="text">
+						</div>
+					</div>
+					<div class="example-date">
+						<div class="df-date size-default">
+							<input type="text">
+						</div>
+					</div>
+					<div class="example-date">
+						<div class="df-date size-large">
+							<input type="text">
+						</div>
+					</div>
+					<div class="example-date">
+						<div class="df-date size-xlarge">
+							<input type="text">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+</body>
+</html>
