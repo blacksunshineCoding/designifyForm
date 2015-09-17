@@ -1,0 +1,257 @@
+.df-radio .df-wrap {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.radio-labeled .df-wrap {
+	margin-bottom: 15px;
+}
+
+.radio-labeled.inline-label .df-wrap {
+	display: table;
+	width: auto;
+}
+
+.df-radio .radio-wrap {
+	position: relative;
+	display: inline-block;
+	box-sizing: border-box;
+	width: 25px;
+	height: 25px;
+	margin: 0 15px 0 0;
+	border: 1px solid #c4c4c4;
+}
+
+.df-radio .size-small .radio-wrap {
+	width: 15px;
+	height: 15px;
+}
+
+.df-radio .size-large .radio-wrap {
+	width: 35px;
+	height: 35px;
+}
+
+.df-radio .size-xlarge .radio-wrap {
+	width: 50px;
+	height: 50px;
+}
+
+.df-radio .style-rounded .radio-wrap {
+	border-radius: 15%;
+}
+
+.df-radio .style-circle .radio-wrap {
+	border-radius: 50%;
+}
+
+.radio-labeled .radio-wrap {
+	width: auto;
+	border: none;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.df-radio.inline-label .radio-wrap {
+	display: table-cell;
+	width: auto;
+	min-width: 80px;
+	padding-right: 20px;
+}
+
+.df-radio.inline-label .size-small .radio-wrap {
+	min-width: 70px;
+}
+
+.df-radio.inline-label .size-large .radio-wrap {
+	min-width: 100px;
+}
+
+.df-radio.inline-label .size-xlarge .radio-wrap {
+	min-width: 130px;
+}
+
+.df-radio .radio-wrap .df-radio {
+	z-index: 50;
+	opacity: 0;
+	display: inline-block;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	width: 25px;
+	height: 25px;
+}
+
+.df-radio .size-small .radio-wrap .df-radio {
+	width: 15px;
+	height: 15px;
+}
+
+.df-radio .size-large .radio-wrap .df-radio {
+	width: 35px;
+	height: 35px;
+}
+
+.df-radio .size-xlarge .radio-wrap .df-radio {
+	width: 50px;
+	height: 50px;
+}
+
+.df-radio .radio-wrap .df-extension {
+	z-index: -1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: inline-block;
+	box-sizing: border-box;
+	width: 25px;
+	height: 25px;	
+}
+
+.df-radio .size-small .radio-wrap .df-extension {
+	width: 15px;
+	height: 15px;
+}
+
+.df-radio .size-large .radio-wrap .df-extension {
+	width: 35px;
+	height: 35px;
+}
+
+.df-radio .size-xlarge .radio-wrap .df-extension {
+	width: 50px;
+	height: 50px;
+}
+
+.radio-labeled .df-extension {
+	border: 1px solid #c4c4c4;
+}
+
+.radio-labeled.style-rounded .df-extension {
+	border-radius: 15%;
+}
+
+.radio-labeled.style-circle .df-extension {
+	border-radius: 50%;
+}
+
+.df-radio .radio-wrap .ext-inner {
+	opacity: 0;
+	overflow: hidden;
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin: 7px;
+	background-color: #000;
+}
+
+.df-radio .size-small .radio-wrap .ext-inner {
+	width: 5px;
+	height: 5px;
+	margin: 0px 0px 5px 4px;
+}
+
+.df-radio .size-large .radio-wrap .ext-inner {
+	width: 15px;
+	height: 15px;
+	margin: 9px 0 0px 9px;
+}
+
+.df-radio .size-xlarge .radio-wrap .ext-inner {
+	width: 20px;
+	height: 20px;
+	margin: 14px 0 0px 14px;
+}
+
+.df-radio .style-rounded .radio-wrap .ext-inner {
+	border-radius: 15%;
+}
+
+.df-radio .style-circle .radio-wrap .ext-inner {
+	border-radius: 50%;
+}
+
+.df-radio .radio-wrap .df-radio:checked + .df-extension .ext-inner {
+	opacity: .65;
+}
+
+.df-radio .coloured-green .ext-inner {
+	background-color: #8bc34a;
+}
+
+.df-radio .coloured-blue .ext-inner {
+	background-color: #2196f3;
+}
+
+.df-radio .coloured-yellow .ext-inner {
+	background-color: #ffc107;
+}
+
+.df-radio .coloured-full.coloured-green .df-radio:checked + .df-extension {
+	border-color: #8bc34a;
+}
+
+.df-radio .coloured-full.coloured-blue .df-radio:checked + .df-extension {
+	border-color: #2196f3;
+}
+
+.df-radio .coloured-full.coloured-yellow .df-radio:checked + .df-extension {
+	border-color: #ffc107;
+}
+
+.radio-labeled .label-wrap {
+	position: absolute;
+	top: 0;
+	left: 25px;
+	display: inline-block;
+	width: auto;
+	height: 25px;
+	margin: 0 0 0 10px;
+	line-height: 25px;
+}
+
+.radio-labeled .label-wrap label {
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	font-size: 16px
+}
+
+.radio-labeled .size-small .label-wrap {
+	height: 15px;
+	line-height: 15px;
+	left: 15px;
+}
+
+.radio-labeled .size-small .label-wrap label {
+	display: inline-block;
+	height: 15px;
+	line-height: 15px;
+	font-size: 12px;
+}
+
+.radio-labeled .size-large .label-wrap {
+	height: 35px;
+	line-height: 35px;
+	left: 35px;
+}
+
+.radio-labeled .size-large .label-wrap label {
+	display: inline-block;
+	height: 35px;
+	line-height: 35px;
+	font-size: 20px;
+}
+
+.radio-labeled .size-xlarge .label-wrap {
+	height: 50px;
+	line-height: 50px;
+	left: 50px;
+}
+
+.radio-labeled .size-xlarge .label-wrap label {
+	display: inline-block;
+	height: 50px;
+	line-height: 50px;
+	font-size: 28px;
+}
