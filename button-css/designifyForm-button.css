@@ -1,0 +1,99 @@
+.df-button {
+	display: inline-block;
+	width: auto;
+	height: 25px;
+	margign: 0;
+	padding: 0 10px;
+	color: #585858;
+	font-size: 14px;
+	line-height: 25px;
+	background-color: transparent;
+	border: 1px solid #c4c4c4;
+	outline: none;
+	-o-transition: all ease .2s;
+	-ms-transition: all ease .2s;
+	-moz-transition: all ease .2s;
+	-webkit-transition: all ease .2s;
+	transition: all ease .2s;
+}
+
+.df-button.size-small {
+	height: 15px;
+	font-size: 11px;
+	line-height: 15px;
+}
+
+.df-button.size-large {
+	height: 35px;
+	font-size: 20px;
+	line-height: 35px;
+}
+
+.df-button.size-xlarge {
+	height: 50px;
+	font-size: 28px;
+	line-height: 50px;
+}
+
+.df-button:hover,
+.df-button:focus {
+	background-color: #c4c4c4;
+	color: #fff;
+}
+
+.df-button.hover-light:hover,
+.df-button.hover-light:focus {
+	background-color: transparent;
+	border-color: #c4c4c4;
+	color: #c4c4c4;
+}
+
+.df-button.coloured-green:hover,
+.df-button.coloured-green:focus {
+	background-color: #8bc34a;
+	border-color: #8bc34a;
+	color: #fff;
+}
+
+.df-button.hover-light.coloured-green:hover,
+.df-button.hover-light.coloured-green:focus {
+	background-color: transparent;
+	border-color: #8bc34a;
+	color: #8bc34a;
+}
+
+.df-button.coloured-blue:hover,
+.df-button.coloured-blue:focus {
+	background-color: #2196f3;
+	border-color: #2196f3;
+	color: #fff;
+}
+
+.df-button.hover-light.coloured-blue:hover,
+.df-button.hover-light.coloured-blue:focus {
+	background-color: transparent;
+	border-color: #2196f3;
+	color: #2196f3;
+}
+
+.df-button.coloured-yellow:hover,
+.df-button.coloured-yellow:focus {
+	background-color: #ffc107;
+	border-color: #ffc107;
+	color: #fff;
+}
+
+.df-button.hover-light.coloured-yellow:hover,
+.df-button.hover-light.coloured-yellow:focus {
+	background-color: transparent;
+	border-color: #ffc107;
+	color: #ffc107;
+}
+
+.df-button.style-rounded {
+	border-radius: 5px;
+}
+
+.df-button.style-rounded.size-small {
+	border-radius: 2px;
+}
