@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>designFormify-range-jquery</title>
+	<link rel="stylesheet" href="../demo.css">
+	<link rel="stylesheet" href="designifyForm-range.css">
+	<script src="../jquery/jquery-1.11.3.min.js"></script>
+	<script src="designifyForm-range.js"></script>
+	<script>
+	$(document).ready(function() {
+
+		$('.df-extension').width( $('.df-range input').width() );
+		$('.df-extension').height( $('.df-range input').height() );
+
+		/*
+		$('.df-range input').change(function() {
+			console.log($(this).val());
+			console.log(parseInt($(this).val()) + '%');
+
+			$('.ext-inner').css('left', $(this).val() + '%')
+		});
+*/
+
+	});
+
+	</script>
+	<script>
+	function endMove() {
+	    $(this).removeClass('movable');
+	}
+	function startMove() {
+	    $('.movable').on('mousemove', function(event) {
+	        var thisX = event.pageX - $(this).width() / 2,
+	            thisY = event.pageY - $(this).height() / 2;
+
+	        $('.movable').offset({
+	            left: thisX
+	        });
+	    });
+	}
+	$(document).ready(function() {
+	    $(".ext-inner").on('mousedown', function() {
+	        $(this).addClass('movable');
+	        startMove();
+	    }).on('mouseup', function() {
+	        $(this).removeClass('movable');
+	        endMove();
+	    });
+
+	});
+	</script>
+</head>
+<body>
+	<div class="container">
+		<header class="intro">
+			<h1>designifyForm</h1>
+			<h2>range-jquery</h2>
+			<p>make your range inputs look amazing with a simply jquery plugin (with nearly no extra html markup)</p>
+		</header>
+		<section data-class="df-radio radio-normal">
+			<h3>default</h3>
+			<div class="example">
+				<span class="df-range">
+					<input type="range" min="0" max="100">
+					<span class="df-extension">
+						<span class="ext-inner"></span>
+					</span>
+				</span>
+			</div>
+		</section>
+		<section>
+			
+			<div id="containerDiv">drag me</div>
+
+		</section>
+	</div>
+</body>
+</html>
