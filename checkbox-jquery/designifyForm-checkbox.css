@@ -1,0 +1,224 @@
+.df-checkboxes .df-wrap {
+	position: relative;
+	width: 25px;
+	height: 25px;
+	display: block;
+	margin: 0 0 10px 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: 1px solid #c4c4c4;
+}
+
+.df-checkboxes .df-wrap.checkbox-labeled {
+	width: auto !important;
+	height: auto !important;
+	border: none;
+	display: block;
+}
+
+.df-wrap.checkbox-labeled.size-small {
+	height: 15px;
+}
+
+.df-wrap.checkbox-labeled.size-large {
+	height: 35px;
+}
+
+.df-wrap.checkbox-labeled.size-xlarge {
+	height: 50px;
+}
+
+.df-wrap.checkbox-labeled .checkbox-wrap {
+	position: relative;
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	box-sizing: border-box;
+	border: 1px solid #c4c4c4;
+}
+
+.df-wrap.checkbox-labeled.size-small .checkbox-wrap {
+	width: 15px;
+	height: 15px;
+}
+
+.df-wrap.checkbox-labeled.size-large .checkbox-wrap {
+	width: 35px;
+	height: 35px;
+}
+
+.df-wrap.checkbox-labeled.size-xlarge .checkbox-wrap {
+	width: 50px;
+	height: 50px;
+}
+
+.df-wrap.checkbox-labeled .label-wrap {
+	position: absolute;
+	top: 0;
+	left: 25px;
+	display: inline-block;
+	box-sizing: border-box;
+	width: auto;
+	height: 25px;
+	margin: 0 0 0 10px;
+	padding: 0;
+}
+
+.df-wrap.checkbox-labeled.size-small .label-wrap {
+	height: 15px;
+	left: 15px;
+}
+
+.df-wrap.checkbox-labeled.size-large .label-wrap {
+	height: 35px;
+	left: 35px;
+}
+
+.df-wrap.checkbox-labeled.size-xlarge .label-wrap {
+	height: 50px;
+	left: 50px;
+}
+
+.df-wrap.checkbox-labeled .label-wrap label {
+	line-height: 25px;
+	font-size: 16px;
+}
+
+.df-wrap.checkbox-labeled.size-small .label-wrap label {
+	line-height: 15px;
+	font-size: 12px;
+	height: 15px;
+	display: block;
+}
+
+.df-checkboxes .df-wrap.checkbox-labeled.size-large .label-wrap label {
+	line-height: 35px;
+	font-size: 20px;
+}
+
+.df-checkboxes .df-wrap.checkbox-labeled.size-xlarge .label-wrap label {
+	line-height: 50px;
+	font-size: 28px;
+}
+
+.df-checkboxes .df-wrap.size-small {
+	width: 15px;
+	height: 15px;
+}
+
+.df-checkboxes .df-wrap.size-large {
+	width: 35px;
+	height: 35px;
+}
+
+.df-checkboxes .df-wrap.size-xlarge {
+	width: 50px;
+	height: 50px;
+}
+
+.df-checkboxes .df-checkbox {
+	width: 25px;
+	height: 25px;
+	margin: 0;
+	padding: 0;
+	opacity: 0;
+	border: none;
+	box-sizing: border-box;
+	z-index: 50;
+}
+
+.df-checkboxes .df-wrap.size-small .df-checkbox {
+	width: 15px;
+	height: 15px;
+}
+
+.df-checkboxes .df-wrap.size-large .df-checkbox {
+	width: 35px;
+	height: 35px;
+}
+
+.df-checkboxes .df-wrap.size-xlarge .df-checkbox {
+	width: 50px;
+	height: 50px;
+}
+
+.df-checkbox:checked + .df-extension {
+	opacity: .75;
+}
+
+.coloured .df-checkbox:checked + .df-extension {
+	opacity: 1;
+}
+
+.df-checkboxes .df-extension {
+	z-index: -1;
+	position: absolute;
+	opacity: .1;
+	top: 0;
+	left: 0;
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-size: 15px auto;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA+klEQVRYR+3Wbw3CMBCH4d8cIAUJIAEFgAOsoAAcIGHBAThBAjnYJU1zXa/rXftlfCMseR/6Z+2Azp+hcx8roMcIbAE8ABwAvFoDKD4C2AD4ANi3BIRxXvvPVgAp/gawawFIxmkavAGzcZoHT0A27glQxb0A6rgHoChuDSiOx4ATgPvC03FRPARQ+DgBzoWIxXEGcJy79F2LqIozgIb+Fv1rDaI6Hk5BKcIkLi1CzUiYxaVtmBsJ03jqPZBCXIPLBC+Z35E6XS4KN8//8dRhJCHiQHU89yacQ5jEcwD6XUKYxTWAGGEa1wIYcaldcNIq9bwRqXbFCug+Al/uuFIhni/cLgAAAABJRU5ErkJggg==');
+}
+
+.df-checkboxes .style-circle .df-extension {
+	background-size: 12px auto;
+}
+
+.df-checkboxes .df-wrap.size-small .df-extension {
+	width: 15px;
+	height: 15px;
+	background-size: 8px auto;
+	background-position: 3px 3px;
+}
+
+.df-checkboxes .df-wrap.size-large .df-extension {
+	width: 35px;
+	height: 35px;
+	background-size: 25px auto;
+}
+
+.df-checkboxes .df-wrap.size-large.style-circle .df-extension {
+	background-size: 20px auto;
+}
+
+.df-checkboxes .df-wrap.size-xlarge .df-extension {
+	width: 50px;
+	height: 50px;
+	background-size: 35px auto;
+}
+
+.df-checkboxes .df-wrap.size-xlarge.style-circle .df-extension {
+	background-size: 30px auto;
+}
+
+.checkbox-plain.style-rounded,
+.checkbox-labeled.style-rounded .checkbox-wrap {
+	border-radius: 15%;
+}
+
+.checkbox-plain.style-circle,
+.checkbox-labeled.style-circle .checkbox-wrap {
+	border-radius: 50%;
+}
+
+/* colors */
+
+.coloured-green .df-checkbox:checked + .df-extension {
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABIklEQVRYR+2WsQ3CMBBF/ykMwCj0SBGU0DEBsAE0GQIqJiAb0KUFItHDJqmoiIwcQQhgsJ2ckyapLb2X8787Exr+qGE+WoHaK7A6jXtIxQ4eTYJ+dK5VQMIpxR6ELgQS4WFYm8Ab/JF8AXGsRUAFB3Dp3K4D5wL/4MvhIXEqoIPLm3AmYAJ3JmAKdyJgA2cXsIWzCpSBvwms4vEs8KOwzHYsC88F1vEoBNFUCISBH81tJKrAM4En/Am1kagKzwRk6YmwLf61iQQHPL8CWwku+FcITSrBCf9qQ10luOHKOfBLAh42+WPiFZhspcqtZtM5xbPKZaSSUAAqw/9OQo0EC1w7in9IsMG1AvLAhwQr3EigILGoGjhVUJ29iEy7ohVovAJ3Dc763nuKTfkAAAAASUVORK5CYII=');
+}
+
+.coloured-blue .df-checkbox:checked + .df-extension {
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABKElEQVRYR+2WyxGCMBBAdzkzjiVQgiVoCVYgnrloKR7wKh1YgmMH2gElOA4XL6wDTjBKIAls4ALnMO/tJ7tBGPnDkfkwCQyegSDOFoD5Gchbp5F/G1SghEN+QcQ5ET0AvNVgAjJcND4BXAcRaIDf4eUvnQu0wdM9PpwK6OBFKZwJmMCdCZjCnQjYwNkFbOGsAl3gPwJBnIVp5CddtmNXeCUQHJ8JAm6IKEmj2dZGog+8FBDwajxaSPSFfwTiLESkkxy1SSY44N8SWEpwwWtNaJIJTnjtGurKwQ1XzoEmCQDvIB4T0j4vV2qx1WxujnxWuYxUEv8AAugNb52EbRJccO0oVpaDKXKRUe17QJbgjNxYoDhYSADSrm/DqRpVm4Gu3W363yQwegbeJw4LMJgmJ8cAAAAASUVORK5CYII=');
+}
+
+.coloured-yellow .df-checkbox:checked + .df-extension {
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABHElEQVRYR+2WyxGCMBCGd5nBs6VYgUNKsAKxA1uxAunAEhioQDvhDDOsIwwvCeQdLnAO833Z/ZMNwsYfbsyHXcB7BSgNT4DBC6i+IKveXgVaOKaAeASiAoiYN4EJfEh+5kWACyf6AJWRc4FVOIPCqYAI/uuEMwEZuDMBWbgTARW4dQFVuFUBHfhEgPIwxnOV6ExHXXgvQNkhAcArECUYlTcVCRN4I9DDO6qChCm8FcjDGCh4TnYtIWEDPrRAUcIWfBZCmUrYhM+OoagdtuHce2BJAoge/WNiCGw7UhkUKidnvJY7jLgS/4RunhvAV2/CVQlLcOFVvNAO47ILWzBeMJGwuPOOIfUgaSRqvJsGjhdUKQHdhMv8twtsXoEv7/MJeCxr5t4AAAAASUVORK5CYII=');
+}

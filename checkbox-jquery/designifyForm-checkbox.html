@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>designFormify-checkbox-jquery</title>
+	<link rel="stylesheet" href="../demo.css">
+	<link rel="stylesheet" href="designifyForm-checkbox.css">
+	<script src="../jquery/jquery-1.11.3.min.js"></script>
+	<script src="designifyForm-checkbox.js"></script>
+	<script>
+		$(document).ready(function() {
+
+
+			// edged/default
+
+			$('input.plain.edged.small.nocolour').dfCheckbox({
+				type: 'plain',
+				style: 'edged',
+				size: 'small',
+				colour: false
+			});
+
+			$('input.plain.edged.default.nocolour').dfCheckbox({
+				type: 'plain',
+				style: 'edged',
+				size: 'default',
+				colour: false
+			});
+
+			$('input.plain.edged.large.nocolour').dfCheckbox({
+				type: 'plain',
+				style: 'edged',
+				size: 'large',
+				colour: false
+			});
+
+			$('input.plain.edged.xlarge.nocolour').dfCheckbox({
+				type: 'plain',
+				style: 'edged',
+				size: 'xlarge',
+				colour: false
+			});
+
+
+			// rounded
+
+			$('input.plain.rounded.small.nocolour').dfCheckbox({
+				type: 'plain',
+				style: 'rounded',
+				size: 'small',
+				colour: false
+			});
+
+			$('input.plain.rounded.default.nocolour').dfCheckbox({
+				type: 'plain',
+				style: 'rounded',
+				size: 'default',
+				colour: false
+			});
+
+			$('input.plain.rounded.large.nocolour').dfCheckbox({
+				type: 'plain',
+				style: 'rounded',
+				size: 'large',
+				colour: false
+			});
+
+			$('input.plain.rounded.xlarge.nocolour').dfCheckbox({
+				type: 'plain',
+				style: 'rounded',
+				size: 'xlarge',
+				colour: false
+			});
+
+
+
+			// circle
+			$('input.plain.circle.small.nocolour').dfCheckbox({
+				type: 'plain',
+				style: 'circle',
+				size: 'small',
+				colour: false
+			});
+
+			$('input.plain.circle.default.nocolour').dfCheckbox({
+				type: 'plain',
+				style: 'circle',
+				size: 'default',
+				colour: false
+			});
+
+			$('input.plain.circle.large.nocolour').dfCheckbox({
+				type: 'plain',
+				style: 'circle',
+				size: 'large',
+				colour: false
+			});
+
+			$('input.plain.circle.xlarge.nocolour').dfCheckbox({
+				type: 'plain',
+				style: 'circle',
+				size: 'xlarge',
+				colour: false
+			});
+
+
+			// labeled
+
+			// edged
+			$('.labeled.edged.small.nocolour').dfCheckbox({
+				type: 'labeled',
+				style: 'edged',
+				size: 'small',
+				colour: false
+			});
+
+			$('.labeled.edged.default.nocolour').dfCheckbox({
+				type: 'labeled',
+				style: 'edged',
+				size: 'default',
+				colour: false
+			});
+
+			$('.labeled.edged.large.nocolour').dfCheckbox({
+				type: 'labeled',
+				style: 'edged',
+				size: 'large',
+				colour: false
+			});
+
+			$('.labeled.edged.xlarge.nocolour').dfCheckbox({
+				type: 'labeled',
+				style: 'edged',
+				size: 'xlarge',
+				colour: false
+			});
+
+
+			// rounded
+			$('.labeled.rounded.small.nocolour').dfCheckbox({
+				type: 'labeled',
+				style: 'rounded',
+				size: 'small',
+				colour: false
+			});
+
+			$('.labeled.rounded.default.nocolour').dfCheckbox({
+				type: 'labeled',
+				style: 'rounded',
+				size: 'default',
+				colour: false
+			});
+
+			$('.labeled.rounded.large.nocolour').dfCheckbox({
+				type: 'labeled',
+				style: 'rounded',
+				size: 'large',
+				colour: false
+			});
+
+			$('.labeled.rounded.xlarge.nocolour').dfCheckbox({
+				type: 'labeled',
+				style: 'rounded',
+				size: 'xlarge',
+				colour: false
+			});
+
+
+			// circle
+			$('.labeled.circle.small.nocolour').dfCheckbox({
+				type: 'labeled',
+				style: 'circle',
+				size: 'small',
+				colour: false
+			});
+
+			$('.labeled.circle.default.nocolour').dfCheckbox({
+				type: 'labeled',
+				style: 'circle',
+				size: 'default',
+				colour: false
+			});
+
+			$('.labeled.circle.large.nocolour').dfCheckbox({
+				type: 'labeled',
+				style: 'circle',
+				size: 'large',
+				colour: false
+			});
+
+			$('.labeled.circle.xlarge.nocolour').dfCheckbox({
+				type: 'labeled',
+				style: 'circle',
+				size: 'xlarge',
+				colour: false
+			});
+
+
+			// coloured
+
+			$('.labeled.edged.default.coloured-green').dfCheckbox({
+				type: 'labeled',
+				style: 'edged',
+				size: 'default',
+				colour: 'green'
+			});
+
+			$('.labeled.rounded.large.coloured-green').dfCheckbox({
+				type: 'labeled',
+				style: 'rounded',
+				size: 'large',
+				colour: 'green'
+			});
+
+			$('.labeled.circle.xlarge.coloured-green').dfCheckbox({
+				type: 'labeled',
+				style: 'circle',
+				size: 'xlarge',
+				colour: 'green'
+			});
+
+
+			$('.labeled.edged.default.coloured-blue').dfCheckbox({
+				type: 'labeled',
+				style: 'edged',
+				size: 'default',
+				colour: 'blue'
+			});
+
+			$('.labeled.rounded.large.coloured-blue').dfCheckbox({
+				type: 'labeled',
+				style: 'rounded',
+				size: 'large',
+				colour: 'blue'
+			});
+
+			$('.labeled.circle.xlarge.coloured-blue').dfCheckbox({
+				type: 'labeled',
+				style: 'circle',
+				size: 'xlarge',
+				colour: 'blue'
+			});
+
+
+			$('.labeled.edged.default.coloured-yellow').dfCheckbox({
+				type: 'labeled',
+				style: 'edged',
+				size: 'default',
+				colour: 'yellow'
+			});
+
+			$('.labeled.rounded.large.coloured-yellow').dfCheckbox({
+				type: 'labeled',
+				style: 'rounded',
+				size: 'large',
+				colour: 'yellow'
+			});
+
+			$('.labeled.circle.xlarge.coloured-yellow').dfCheckbox({
+				type: 'labeled',
+				style: 'circle',
+				size: 'xlarge',
+				colour: 'yellow'
+			});
+
+		});
+	</script>
+</head>
+<body>
+	<div class="container">
+		<header class="intro">
+			<h1>designifyForm</h1>
+			<h2>checkbox-jquery</h2>
+			<p>make your checkboxes look amazing with a simply jquery plugin (with nearly no extra html markup)</p>
+		</header>
+		<section class="df-checkboxes checkboxes-normal">
+			<h3>plain checkboxes</h3>
+			<div class="example">
+				<div class="style style-default">
+					<h4>default style</h4>
+					<input type="checkbox" class="plain edged small nocolour">
+					<input type="checkbox" class="plain edged default nocolour">
+					<input type="checkbox" class="plain edged large nocolour">
+					<input type="checkbox" class="plain edged xlarge nocolour">
+				</div>
+				<div class="style style-rounded">
+					<h4>rounded style</h4>
+					<input type="checkbox" class="plain rounded small nocolour">
+					<input type="checkbox" class="plain rounded default nocolour">
+					<input type="checkbox" class="plain rounded large nocolour">
+					<input type="checkbox" class="plain rounded xlarge nocolour">
+				</div>
+				<div class="style style-circle">
+					<h4>circle style</h4>
+					<input type="checkbox" class="plain circle small nocolour">
+					<input type="checkbox" class="plain circle default nocolour">
+					<input type="checkbox" class="plain circle large nocolour">
+					<input type="checkbox" class="plain circle xlarge nocolour">
+				</div>
+			</div>
+		</section>
+		<section class="df-checkboxes checkboxes-labeled">
+			<h3>labeled checkboxes</h3>
+			<div class="example">
+				<div class="style style-default">
+					<h4>default style</h4>
+					<span class="labeled edged small nocolour">
+						<input type="checkbox">
+						<label>I am a small sized label</label>
+					</span>
+					<span class="labeled edged default nocolour">
+						<input type="checkbox">
+						<label>I am a default sized label</label>
+					</span>
+					<span class="labeled edged large nocolour">
+						<input type="checkbox">
+						<label>I am a large sized label</label>
+					</span>
+					<span class="labeled edged xlarge nocolour">
+						<input type="checkbox">
+						<label>I am a xlarge sized label</label>
+					</span>
+				</div>
+				<div class="style style-rounded">
+					<h4>rounded style</h4>
+					<span class="labeled rounded small nocolour">
+						<input type="checkbox">
+						<label>I am a small sized label</label>
+					</span>
+					<span class="labeled rounded default nocolour">
+						<input type="checkbox">
+						<label>I am a default sized label</label>
+					</span>
+					<span class="labeled rounded large nocolour">
+						<input type="checkbox">
+						<label>I am a large sized label</label>
+					</span>
+					<span class="labeled rounded xlarge nocolour">
+						<input type="checkbox">
+						<label>I am a xlarge sized label</label>
+					</span>
+				</div>
+				<div class="style style-circle">
+					<h4>circle style</h4>
+					<span class="labeled circle small nocolour">
+						<input type="checkbox">
+						<label>I am a small sized label</label>
+					</span>
+					<span class="labeled circle default nocolour">
+						<input type="checkbox">
+						<label>I am a default sized label</label>
+					</span>
+					<span class="labeled circle large nocolour">
+						<input type="checkbox">
+						<label>I am a large sized label</label>
+					</span>
+					<span class="labeled circle xlarge nocolour">
+						<input type="checkbox">
+						<label>I am a xlarge sized label</label>
+					</span>
+				</div>
+			</div>
+		</section>
+		<section class="df-checkboxes checkboxes-coloured">
+			<h3>coloured checkboxes</h3>
+			<div class="example">
+				<div class="style style-coloured green">
+					<h4>coloured green</h4>
+					<span class="labeled edged default coloured-green">
+						<input type="checkbox">
+						<label>I am a default sized label</label>
+					</span>
+					<span class="labeled rounded large coloured-green">
+						<input type="checkbox">
+						<label>I am a large sized label</label>
+					</span>
+					<span class="labeled circle xlarge coloured-green">
+						<input type="checkbox">
+						<label>I am a xlarge sized label</label>
+					</span>
+				</div>
+				<div class="style style-coloured blue">
+					<h4>coloured blue</h4>
+					<span class="labeled edged default coloured-blue">
+						<input type="checkbox">
+						<label>I am a default sized label</label>
+					</span>
+					<span class="labeled rounded large coloured-blue">
+						<input type="checkbox">
+						<label>I am a large sized label</label>
+					</span>
+					<span class="labeled circle xlarge coloured-blue">
+						<input type="checkbox">
+						<label>I am a xlarge sized label</label>
+					</span>
+				</div>
+				<div class="style style-coloured yellow">
+					<h4>coloured yellow</h4>
+					<span class="labeled edged default coloured-yellow">
+						<input type="checkbox">
+						<label>I am a default sized label</label>
+					</span>
+					<span class="labeled rounded large coloured-yellow">
+						<input type="checkbox">
+						<label>I am a large sized label</label>
+					</span>
+					<span class="labeled circle xlarge coloured-yellow">
+						<input type="checkbox">
+						<label>I am a xlarge sized label</label>
+					</span>
+				</div>
+			</div>
+		</section>
+	</div>
+</body>
+</html>
