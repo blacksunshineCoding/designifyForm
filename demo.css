@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 @import url(https://fonts.googleapis.com/css?family=Karla:400,700,400italic);
 
 body {
@@ -36,6 +38,13 @@ h4 {
 	font-weight: 400;
 }
 
+h5 {
+	font-weight: 400;
+	font-size: 18px;
+	margin: 0 0 10px 0;
+}
+
+
 
 .container {
 	width: 800px;
@@ -59,8 +68,21 @@ section {
 	margin-bottom: 20px;
 }
 
+.number-example .example {
+	margin-bottom: 10px;
+}
+
 .df-checkbox {
 	display: block;
 	margin-bottom: 8px;
 	padding-bottom: 8px;
+}
+
+.example-button .df-button {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.example-df-date .example-date {
+	margin-bottom: 10px;
 }
