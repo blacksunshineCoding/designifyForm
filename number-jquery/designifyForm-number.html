@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>designFormify-number-jquery</title>
+	<link rel="stylesheet" href="../demo.css">
+	<link rel="stylesheet" href="designifyForm-number.css">
+	<script src="../jquery/jquery-1.11.3.min.js"></script>
+	<script src="designifyForm-number.js"></script>
+	<script>
+		$(document).ready(function() {
+
+			// edged
+			$('.number.edged.small.noicon').dfNumber({
+				size: 'small'
+			});
+
+			$('.number.edged.default.noicon').dfNumber();
+
+			$('.number.edged.large.noicon').dfNumber({
+				size: 'large'
+			});
+
+			$('.number.edged.xlarge.noicon').dfNumber({
+				size: 'xlarge'
+			});
+
+			// edged
+			$('.number.rounded.small.noicon').dfNumber({
+				style: 'rounded',
+				size: 'small'
+			});
+
+			$('.number.rounded.default.noicon').dfNumber({
+				style: 'rounded',
+			});
+
+			$('.number.rounded.large.noicon').dfNumber({
+				style: 'rounded',
+				size: 'large'
+			});
+
+			$('.number.rounded.xlarge.noicon').dfNumber({
+				style: 'rounded',
+				size: 'xlarge'
+			});
+
+			// icons
+			$('.number.edged.default.iconedged').dfNumber();
+
+			$('.number.edged.large.iconedged').dfNumber({
+				size: 'large'
+			});
+
+			$('.number.edged.default.iconrounded').dfNumber({
+				icon: 'rounded'
+			});
+
+			$('.number.edged.large.iconrounded').dfNumber({
+				size: 'large',
+				icon: 'rounded'
+			});
+
+			$('.number.edged.default.iconborder').dfNumber({
+				icon: 'border'
+			});
+
+			$('.number.edged.large.iconborder').dfNumber({
+				size: 'large',
+				icon: 'border'
+			});
+
+
+			// labeled left
+			$('.number.labeledleft.edged.small').dfNumber({
+				size: 'small',
+				type: 'labeled'
+			});
+
+			$('.number.labeledleft.edged.default').dfNumber({
+				type: 'labeled'
+			});
+
+			$('.number.labeledleft.rounded.large').dfNumber({
+				size: 'large',
+				style: 'rounded',
+				type: 'labeled'
+			});
+
+			$('.number.labeledleft.edged.xlarge.bordericon').dfNumber({
+				size: 'xlarge',
+				type: 'labeled',
+				icon: 'border'
+			});
+
+
+			// labeled right
+			$('.number.labeledright.edged.small').dfNumber({
+				size: 'small',
+				labelAlign: 'right',
+				type: 'labeled'
+			});
+
+			$('.number.labeledright.edged.default').dfNumber({
+				type: 'labeled',
+				labelAlign: 'right'
+			});
+
+			$('.number.labeledright.rounded.large').dfNumber({
+				size: 'large',
+				labelAlign: 'right',
+				style: 'rounded',
+				type: 'labeled'
+			});
+
+			$('.number.labeledright.edged.xlarge.bordericon').dfNumber({
+				size: 'xlarge',
+				labelAlign: 'right',
+				type: 'labeled',
+				icon: 'border'
+			});
+
+		});
+	</script>
+</head>
+<body class="number-example">
+	<div class="container">
+		<header class="intro">
+			<h1>designifyForm</h1>
+			<h2>number-jquery</h2>
+			<p>make your number inputs look amazing with a simply jquery plugin (with nearly no extra html markup)</p>
+		</header>
+		<section class="edged-example">
+			<h3>plain</h3>
+			<div class="example example-small">
+				<input class="number edged small noicon" type="number" value="1" min="1" max="10">
+			</div>
+			<div class="example example-default">
+				<input class="number edged default noicon" type="number" value="1" min="1" max="10">
+			</div>
+			<div class="example example-large">
+				<input class="number edged large noicon" type="number" value="1" min="1" max="10">
+			</div>
+			<div class="example example-xlarge">
+				<input class="number edged xlarge noicon" type="number" value="1" min="1" max="10">
+			</div>
+		</section>
+		<section class="example-rounded">
+			<h3>rounded</h3>
+			<div>
+				<div class="example example-small">
+					<input class="number rounded small noicon" type="number" value="1" min="1" max="10">
+				</div>
+				<div class="example example-default">
+					<input class="number rounded default noicon" type="number" value="1" min="1" max="10">
+				</div>
+				<div class="example example-large">
+					<input class="number rounded large noicon" type="number" value="1" min="1" max="10">
+				</div>
+				<div class="example example-xlarge">
+					<input class="number rounded xlarge noicon" type="number" value="1" min="1" max="10">
+				</div>
+			</div>
+		</section>
+		<section class="example-rounded">
+			<h3>different icons</h3>
+			<div class="style-example-edged">
+				<h4>edged icon</h4>
+				<div class="example example-default">
+					<input class="number edged default iconedged" type="number" value="1" min="1" max="10">
+				</div>
+				<div class="example example-large">
+					<input class="number edged large iconedged" type="number" value="1" min="1" max="10">
+				</div>
+			</div>
+			<div class="style-example-rounded">
+				<h4>rounded icon</h4>
+				<div class="example example-default">
+					<input class="number edged default iconrounded" type="number" value="1" min="1" max="10">
+				</div>
+				<div class="example example-large">
+					<input class="number edged large iconrounded" type="number" value="1" min="1" max="10">
+				</div>
+			</div>
+			<div class="style-example-border">
+				<h4>border icon</h4>
+				<div class="example example-default">
+					<input class="number edged default iconborder" type="number" value="1" min="1" max="10">
+				</div>
+				<div class="example example-large">
+					<input class="number edged large iconborder" type="number" value="1" min="1" max="10">
+				</div>
+			</div>
+		</section>
+		<section class="labeled-example">
+			<h3>labeled</h3>
+			<div class="example example-labeled-left">
+				<h4>label left</h4>
+				<div class="example example-small">
+					<span class="number labeledleft edged small">
+						<label for="ll1">Range</label>
+						<input type="number" value="1" min="1" max="10" id="ll1">
+					</span>
+				</div>
+				<div class="example example-default">
+					<span class="number labeledleft edged default">
+						<label for="ll2">Range</label>
+						<input type="number" value="1" min="1" max="10" id="ll2">
+					</span>
+				</div>
+				<div class="example example-large">
+					<span class="number labeledleft rounded large">
+						<label for="ll3">Range</label>
+						<input type="number" value="1" min="1" max="10" id="ll3">
+					</span>
+				</div>
+				<div class="example example-xlarge">
+					<span class="number labeledleft edged xlarge bordericon">
+						<label for="ll4">Range</label>
+						<input type="number" value="1" min="1" max="10" id="ll4">
+					</span>
+				</div>
+			</div>
+			<div class="example example-labeled-right">
+				<h4>label right</h4>
+				<div class="example example-small">
+					<span class="number labeledright edged small">
+						<input type="number" value="1" min="1" max="10" id="ll5">
+						<label for="ll5">Range</label>
+					</span>
+				</div>
+				<div class="example example-default">
+					<span class="number labeledright edged default">
+						<input type="number" value="1" min="1" max="10" id="ll6">
+						<label for="ll6">Range</label>
+					</span>
+				</div>
+				<div class="example example-large">
+					<span class="number labeledright rounded large">
+						<input type="number" value="1" min="1" max="10" id="ll7">
+						<label for="ll7">Range</label>
+					</span>
+				</div>
+				<div class="example example-xlarge">
+					<span class="number labeledright edged xlarge bordericon">
+						<input type="number" value="1" min="1" max="10" id="ll8">
+						<label for="ll8">Range</label>
+					</span>
+				</div>
+			</div>
+		</section>
+	</div>
+</body>
+</html>
